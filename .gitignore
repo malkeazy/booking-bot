@@ -1,0 +1,37 @@
+# Конфиденциальные данные и ключи (Ваш токен бота должен быть здесь!)
+.env
+config.py
+credentials.json
+*.token
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+pyenv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Базы данных (если используете локальные БД вроде SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи и отчеты
+*.log
+logs/
+*.err
+
+# Специфичные файлы операционных систем и редакторов
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
